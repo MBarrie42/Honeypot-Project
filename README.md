@@ -23,28 +23,12 @@ Dionaea is a honeypot that recieves lists of attacker and malware.
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
+The database MHN-Admins use is JSON. The JSON file records the date of the attack, source ip of the attack, the source port, and identifier number.
+
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
-
-### Deploying Additional Honeypot(s) (Optional)
-
-#### X Honeypot
-
-**Summary:** What does this honeypot simulate and do for a security researcher?
-
-<img src="x-honeypot.gif">
-
-### Malware Capture and Identification (Optional)
-
-#### X Malware
-
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
-
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
-
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
-
-<img src="x-malware.gif">
 
 ## Notes
 
 Describe any challenges encountered while doing the assignment.
+
+I had issues with the instances and the ssh. Many times the connection timed out and I had to restart the assignment.
