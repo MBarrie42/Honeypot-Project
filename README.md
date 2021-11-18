@@ -15,7 +15,7 @@ A cloud hosting provider was first need to do the deployment. Google cloud was u
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-Dionaea is a honeypot that recieves lists of attacker and malware.
+Dionaea is a honeypot that recieves lists of attackers and malware. 
 
 <img src="Dionaea Honeypot Deployment.gif">
 
