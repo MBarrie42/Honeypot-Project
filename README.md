@@ -1,20 +1,21 @@
 # Honeypot Assignment
 
-**Time spent:** **X** hours spent in total
+**Time spent:** 10 hours spent in total
 
 **Objective:** Create a honeynet using MHN-Admin. Present your findings as if you were requested to give a brief report of the current state of Internet security. Assume that your audience is a current employer who is questioning why the company should allocate anymore resources to the IT security team.
 
 ### MHN-Admin Deployment (Required)
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
-
+A cloud hosting provider was first need to do the deployment. Google cloud was used and an SDK was installed. After the SDK was initialized, a VM was created and made accessible via SSH. A script later was installed on to the VM to load the external IP in the browser.
 <img src="mhn-admin.gif">
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
+Dionaea is a honeypot that recieves lists of attacker and malware.
 
-<img src="dionaea-honeypot.gif">
+<img src="Dionaea Honeypot Deployment.gif">
 
 ### Database Backup (Required) 
 
